@@ -1,0 +1,60 @@
+# Android Studio
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+
+# Build outputs
+build/
+app/build/
+
+# Generated files
+bin/
+out/
+
+# Gradle files
+.gradle/
+gradle-local.properties
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large files directory
+.tools/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test reports
+coverage/
+
+# APK files
+*.apk
+*.aab
+
+# Signing files
+keystore.jks
+*.keystore
+*.jks
+
+# Trae AI files
+.trae/
