@@ -1,60 +1,84 @@
-# Android Studio
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# PyQt
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+
+# IDE
+.vscode/
 .idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS
+*.log
+*.bak
+*.tmp
+*.temp
+
+# Docker
+.dockerignore
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Documentation
+/build/
+docs/_build/
+
+# Misc
+.cache/
+.trae/
+.temp/
+temp-zerophone/
+
+# Android (deprecated)
+app/
+build/
 .gradle/
 local.properties
 *.iml
 *.hprof
 
-# Build outputs
-build/
-app/build/
-
-# Generated files
-bin/
-out/
-
-# Gradle files
-.gradle/
-gradle-local.properties
-
-# Logs
-logs/
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.temp
-
-# Large files directory
+# JDK (deprecated)
 .tools/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Test reports
-coverage/
-
-# APK files
-*.apk
-*.aab
-
-# Signing files
-keystore.jks
-*.keystore
-*.jks
-
-# Trae AI files
-.trae/
